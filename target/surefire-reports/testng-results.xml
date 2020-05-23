@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="95459" started-at="2020-05-20T09:54:02Z" finished-at="2020-05-20T09:55:37Z">
+    <groups>
+    </groups>
+    <test name="Test Account OverviewEdit" duration-ms="27862" started-at="2020-05-20T09:54:02Z" finished-at="2020-05-20T09:54:30Z">
+      <class name="com.legalzoom.accountoverview.AccountOverviewEditOptionTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.legalzoom.accountoverview.AccountOverviewEditOptionTest@323b36e0]" name="openBrowser" is-config="true" duration-ms="4265" started-at="2020-05-20T15:24:02Z" finished-at="2020-05-20T15:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyeditoption()[pri:0, instance:com.legalzoom.accountoverview.AccountOverviewEditOptionTest@323b36e0]" name="verifyeditoption" duration-ms="23150" started-at="2020-05-20T15:24:06Z" finished-at="2020-05-20T15:24:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyeditoption -->
+        <test-method status="PASS" signature="closeallbrowser()[pri:0, instance:com.legalzoom.accountoverview.AccountOverviewEditOptionTest@323b36e0]" name="closeallbrowser" is-config="true" duration-ms="429" started-at="2020-05-20T15:24:29Z" finished-at="2020-05-20T15:24:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeallbrowser -->
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewEditOptionTest -->
+    </test> <!-- Test Account OverviewEdit -->
+    <test name="Test Account Overview Help Search" duration-ms="27684" started-at="2020-05-20T09:54:30Z" finished-at="2020-05-20T09:54:58Z">
+      <class name="com.legalzoom.accountoverview.AccountOverviewHelpSearchLink">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.legalzoom.accountoverview.AccountOverviewHelpSearchLink@595b007d]" name="openBrowser" is-config="true" duration-ms="3349" started-at="2020-05-20T15:24:30Z" finished-at="2020-05-20T15:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifysearchourknowledgecenter()[pri:0, instance:com.legalzoom.accountoverview.AccountOverviewHelpSearchLink@595b007d]" name="verifysearchourknowledgecenter" duration-ms="20140" started-at="2020-05-20T15:24:33Z" finished-at="2020-05-20T15:24:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchourknowledgecenter -->
+        <test-method status="PASS" signature="closeallbrowser()[pri:0, instance:com.legalzoom.accountoverview.AccountOverviewHelpSearchLink@595b007d]" name="closeallbrowser" is-config="true" duration-ms="4195" started-at="2020-05-20T15:24:54Z" finished-at="2020-05-20T15:24:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeallbrowser -->
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewHelpSearchLink -->
+    </test> <!-- Test Account Overview Help Search -->
+    <test name="Test A Home Page Test" duration-ms="14442" started-at="2020-05-20T09:54:58Z" finished-at="2020-05-20T09:55:12Z">
+      <class name="com.legalzoom.hometest.LegalZoomHomePageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.legalzoom.hometest.LegalZoomHomePageTest@35cabb2a]" name="openBrowser" is-config="true" duration-ms="3355" started-at="2020-05-20T15:24:58Z" finished-at="2020-05-20T15:25:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyhomepage()[pri:0, instance:com.legalzoom.hometest.LegalZoomHomePageTest@35cabb2a]" name="verifyhomepage" duration-ms="7000" started-at="2020-05-20T15:25:01Z" description="Verifed Home page of LegalZoom" finished-at="2020-05-20T15:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomepage -->
+        <test-method status="PASS" signature="closeallbrowser()[pri:0, instance:com.legalzoom.hometest.LegalZoomHomePageTest@35cabb2a]" name="closeallbrowser" is-config="true" duration-ms="4086" started-at="2020-05-20T15:25:08Z" finished-at="2020-05-20T15:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeallbrowser -->
+      </class> <!-- com.legalzoom.hometest.LegalZoomHomePageTest -->
+    </test> <!-- Test A Home Page Test -->
+    <test name="Test SignIn" duration-ms="24794" started-at="2020-05-20T09:55:12Z" finished-at="2020-05-20T09:55:37Z">
+      <class name="com.legalzoom.hometest.LegalZoomSignInTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.legalzoom.hometest.LegalZoomSignInTest@1d2adfbe]" name="openBrowser" is-config="true" duration-ms="3504" started-at="2020-05-20T15:25:12Z" finished-at="2020-05-20T15:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifysignin()[pri:0, instance:com.legalzoom.hometest.LegalZoomSignInTest@1d2adfbe]" name="verifysignin" duration-ms="21066" started-at="2020-05-20T15:25:16Z" finished-at="2020-05-20T15:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysignin -->
+        <test-method status="PASS" signature="closeallbrowser()[pri:0, instance:com.legalzoom.hometest.LegalZoomSignInTest@1d2adfbe]" name="closeallbrowser" is-config="true" duration-ms="224" started-at="2020-05-20T15:25:37Z" finished-at="2020-05-20T15:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeallbrowser -->
+      </class> <!-- com.legalzoom.hometest.LegalZoomSignInTest -->
+    </test> <!-- Test SignIn -->
+  </suite> <!-- Suite -->
+</testng-results>

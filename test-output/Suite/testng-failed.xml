@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Verify LegalZoomSignInTest(failed)" parallel="none">
+    <classes>
+      <class name="com.legalzoom.hometest.LegalZoomHomePageTest">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.hometest.LegalZoomHomePageTest -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewEditOption">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewEditOption -->
+      <class name="com.legalzoom.hometest.LegalZoomSignInTest">
+        <methods>
+          <include name="verifysignin"/>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.hometest.LegalZoomSignInTest -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewSignUpNewsletter">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewSignUpNewsletter -->
+      <class name="com.legalzoom.hometest.LegalZoomSignUpTest">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.hometest.LegalZoomSignUpTest -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewNewConsultation">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeallbrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewNewConsultation -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewBeginanewOrder">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewBeginanewOrder -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewHelpSearchLink">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewHelpSearchLink -->
+    </classes>
+  </test> <!-- Verify LegalZoomSignInTest(failed) -->
+  <test name="Verify AccountOverviewNewConsultation(failed)" parallel="none">
+    <classes>
+      <class name="com.legalzoom.hometest.LegalZoomHomePageTest">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.hometest.LegalZoomHomePageTest -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewEditOption">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewEditOption -->
+      <class name="com.legalzoom.hometest.LegalZoomSignInTest">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.hometest.LegalZoomSignInTest -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewSignUpNewsletter">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewSignUpNewsletter -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewNewConsultation">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="verifyschedulenewconsultation"/>
+          <include name="closeallbrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewNewConsultation -->
+      <class name="com.legalzoom.hometest.LegalZoomSignUpTest">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.hometest.LegalZoomSignUpTest -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewBeginanewOrder">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewBeginanewOrder -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewHelpSearchLink">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewHelpSearchLink -->
+    </classes>
+  </test> <!-- Verify AccountOverviewNewConsultation(failed) -->
+  <test name="Verify LegalZoomSignUp(failed)" parallel="none">
+    <classes>
+      <class name="com.legalzoom.hometest.LegalZoomHomePageTest">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.hometest.LegalZoomHomePageTest -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewEditOption">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewEditOption -->
+      <class name="com.legalzoom.hometest.LegalZoomSignInTest">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.hometest.LegalZoomSignInTest -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewSignUpNewsletter">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewSignUpNewsletter -->
+      <class name="com.legalzoom.hometest.LegalZoomSignUpTest">
+        <methods>
+          <include name="verifysignup"/>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.hometest.LegalZoomSignUpTest -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewNewConsultation">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeallbrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewNewConsultation -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewBeginanewOrder">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewBeginanewOrder -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewHelpSearchLink">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewHelpSearchLink -->
+    </classes>
+  </test> <!-- Verify LegalZoomSignUp(failed) -->
+  <test name="Verify AccountOverviewEditOption(failed)" parallel="none">
+    <classes>
+      <class name="com.legalzoom.hometest.LegalZoomHomePageTest">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.hometest.LegalZoomHomePageTest -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewEditOption">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+          <include name="verifyeditoption"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewEditOption -->
+      <class name="com.legalzoom.hometest.LegalZoomSignInTest">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.hometest.LegalZoomSignInTest -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewSignUpNewsletter">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewSignUpNewsletter -->
+      <class name="com.legalzoom.hometest.LegalZoomSignUpTest">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.hometest.LegalZoomSignUpTest -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewNewConsultation">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeallbrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewNewConsultation -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewBeginanewOrder">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewBeginanewOrder -->
+      <class name="com.legalzoom.accountoverview.AccountOverviewHelpSearchLink">
+        <methods>
+          <include name="closeallbrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.legalzoom.accountoverview.AccountOverviewHelpSearchLink -->
+    </classes>
+  </test> <!-- Verify AccountOverviewEditOption(failed) -->
+</suite> <!-- Failed suite [Suite] -->

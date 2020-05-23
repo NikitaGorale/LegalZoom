@@ -1,0 +1,15 @@
+# Created at 2020-05-15T15:31:02.389
+org.testng.TestNGException: 
+Two tests in the same suite cannot have the same name: Test SignIn
+	at org.testng.TestNG.checkTestNames(TestNG.java:990)
+	at org.testng.TestNG.sanityCheck(TestNG.java:979)
+	at org.testng.TestNG.run(TestNG.java:1011)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+
+

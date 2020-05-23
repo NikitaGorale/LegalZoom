@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+	<listeners>
+		<listener class-name="com.legalzoom.legalz.ListenerTest"></listener>
+	</listeners>
+	<test name="Test Account OverviewEdit">
+		<classes>
+			<class
+				name="com.legalzoom.accountoverview.AccountOverviewEditOptionTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test Account Overview Help Search">
+		<classes>
+			<class
+				name="com.legalzoom.accountoverview.AccountOverviewHelpSearchLink" />
+		</classes>
+	</test>
+
+	<test name="Test A Home Page Test">
+		<classes>
+			<class name="com.legalzoom.hometest.LegalZoomHomePageTest" />
+		</classes>
+	</test>
+
+	<test name="Test SignIn">
+		<classes>
+			<class name="com.legalzoom.hometest.LegalZoomSignInTest" />
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->

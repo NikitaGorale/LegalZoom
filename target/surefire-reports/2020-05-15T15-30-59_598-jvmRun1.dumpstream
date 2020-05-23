@@ -1,0 +1,4 @@
+# Created at 2020-05-15T15:31:02.403
+
+Two tests in the same suite cannot have the same name: Test SignIn
+
