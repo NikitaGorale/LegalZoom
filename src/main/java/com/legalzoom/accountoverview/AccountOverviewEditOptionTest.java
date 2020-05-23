@@ -25,6 +25,7 @@ public class AccountOverviewEditOptionTest {
 	@Test
 	public void verifyeditoption() {
 		Keyword.launchUrl(PropertiesUtils.getLocator("url"));
+		
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
@@ -36,6 +37,7 @@ public class AccountOverviewEditOptionTest {
 		Keyword.myaccount();
 		Keyword.addwait();
 		Keyword.usernameandpassword();
+		
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
@@ -49,7 +51,6 @@ public class AccountOverviewEditOptionTest {
 		String expected = Keyword.buildWebElement("personal").getText();
 		String actual = "Personal Information";
 		Assert.assertEquals(expected, actual);
-
 	}
 
 	@AfterTest
